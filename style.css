@@ -1,0 +1,376 @@
+    
+    
+    
+      body {
+          padding: 0;
+          margin: 0;
+          background: rgb(253, 253, 253);
+        }
+
+        ul {
+          list-style-type: none;
+          margin: 0px;
+          padding: 0px;
+          overflow: hidden;
+          background: linear-gradient(to bottom, #000206, #22438c);
+          font-family: "Rubik", sans-serif;
+          font-optical-sizing: auto;
+          padding: 15px;
+        }
+
+        li {
+          float: left;
+          padding: 20px;
+        }
+
+        li a,
+          .dropdown {
+          display: inline-block;
+          color: white;
+          text-decoration: none;
+          border-radius: 10px;
+        }
+
+        li a:hover,
+          .dropdown:hover .dropbotton {
+          background: #112c66;
+          border-radius: 5px;
+          padding: 5px;
+        }
+
+        li.dropbotton {
+          display: inline-block;
+        }
+
+        .dropdownbotton a {
+          color: rgb(248, 247, 247);
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+
+        .dropdownbotton {
+          display: none;
+          position: absolute;
+          background: #22438c;
+          min-width: 160px;
+          border-radius: 5px;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+        }
+
+        .dropdownbotton a:hover {
+          background: #112c66;
+        }
+
+        .dropdown:hover .dropdownbotton {
+          display: block;
+        }
+
+        .caixa2 {
+          position: relative;
+          height: 550px;
+          width: 75px;
+          margin-left: 100px;
+          border-radius: 10px;
+          display: flex;
+          gap: 40px;
+          align-items: flex-start;
+
+        }
+
+        .caixa-invi {
+          display: none;
+          position: absolute;
+        }
+
+        .caixa:hover .caixa-invi {
+          display: block;
+        }
+
+        .folha{
+          margin: 0px;
+          padding: 0px;
+          position: relative;
+          float: right;
+          padding: 3px; 
+        }
+
+        .main{
+          display: block;
+          width: 80%;
+          height: 420vh;
+          margin: 0 auto; 
+          overflow: hidden;      
+        }
+
+        .img1{
+          border-radius: 5px;
+          margin-top: 30px;
+          height: 500px;
+          width: 800px;
+        }
+
+        .img2{
+          border-radius: 100px;
+          cursor: pointer;
+          margin-top: 80px;
+          margin-left: 110px;
+        }
+
+
+        .footer{
+          background: linear-gradient(to bottom, #22438c, rgb(11, 0, 0));
+          padding: 20px;
+          color: white;
+          font-family: "Rubik", sans-serif;
+          font-optical-sizing: auto;
+          text-align: center;
+          overflow: hidden;
+        }
+  
+        .body{
+          background: black;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+        }     
+
+        .h2{
+          color: black;
+        }
+
+        .div1{
+          position: relative;
+          width: 50%;
+          height: 48vh;
+          margin-top: 100px;
+          margin-bottom: 0px;
+          margin-left: 110px;
+          overflow: hidden; 
+          text-align: left;
+        }
+
+        .div2{
+          
+          justify-content: center;
+          justify-content: space-around;
+          position: relative;
+          display: flex;
+          margin-left: 110px;
+          border-radius: 5px;
+          height: 70vh;
+          width: 70%;
+          gap: 90px;
+          overflow: hidden;;
+        }
+
+        .div3{
+          font-family: "Rubik", sans-serif;
+          font-optical-sizing: auto;
+          margin-right: 10px;
+          margin-left: 10px;
+          color: black;
+          overflow: hidden;
+        }
+
+        .div4{
+          font-family: "Rubik", sans-serif;
+          font-optical-sizing: auto;
+          justify-content: center;
+          align-items: center;
+          min-height: 10vh;
+          width: 80%;
+          background: (253,253,253);
+          text-align: center;
+          margin: 0 auto;
+        }
+
+        .div5{
+          border: 2px solid darkgray;
+          height: 140px;
+          padding-right: 50px;
+          margin-top: 30px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .div6{
+          border: 2px solid darkgray;
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          margin-top: 20px;
+          width: 70%;
+          height: 25vh;
+        }
+
+        .divs.direita{
+          display: flex;
+          flex-direction: column; /* empilha div5 e div6 verticalmente */
+          gap: 20px; 
+        }
+
+
+        .h1{
+          margin-left: 20px;
+          font-family: "Rubik", sans-serif;
+        }
+
+
+  
+        .p1{
+          font-family: "Rubik", sans-serif;
+          font-optical-sizing: auto;
+          justify-content: center;
+          text-align: justify;
+          align-items: center;
+          color: black;
+          font-size: 18px;
+        }
+
+        .p2{
+          
+          font-family: "Rubik", sans-serif;
+          font-optical-sizing: auto;
+          font-size: 15px;
+          color: black;
+          text-align: center;
+        }
+        
+        .p3{
+          font-family: "Rubik", sans-serif;
+          font-optical-sizing: auto;
+          font-size: 20px;
+          text-align: left;
+          text-align: justify;
+          color: black;
+        }
+
+        .hr1{
+          border: none;
+          height: 3px;           
+          background-color: black; 
+        }
+
+        .hr2{
+          border: none;   
+          height: 3px;       
+          background-color: black;
+          margin-top: 30px;
+        }
+
+        .section1{
+          justify-content: center;
+          position: relative;
+          margin: 100px auto;
+          margin-top: 40px;
+          margin-bottom: 100px;
+          border-radius: 5px;
+          width: 35%;
+          height: 5vh;
+          overflow: hidden;
+        }
+
+        .section2{
+          justify-content: center;
+          position: relative;
+          margin: 50px 50px;
+          margin-left: 250px;
+          width: 45%;
+          height: 117vh;
+          overflow: hidden;
+          float: left;
+        }
+
+        .section3{
+          position: relative;
+          margin: 25px;
+          margin-top: 20px;
+          width: 25%;
+          height: 120vh;
+          overflow: hidden;
+          float: left;
+        }
+
+        .section3 img{
+          display: block;
+          margin-top: 88px;
+          margin-bottom: 130px;
+          border-radius: 8px;
+        }
+  
+
+        .button-container{
+          display: inline-flex;
+          flex-direction: row;
+          gap: 100px;
+          margin-top: 30px;
+        }
+
+        .btn{
+          padding: 6px 10px;
+          width: 120px;
+          border: 2px solid transparent;
+          border-radius: 8px;
+          color: white;
+          font-family: "Rubik", sans-serif;
+          font-optical-sizing: auto;
+          font-size: 13px;
+          font-weight: 600;
+          text-transform: uppercase;
+          cursor: pointer;
+          box-shadow: 0 4px 10px rgba(0,0,0, 0.15);
+          transition: all 0.3s ease-in-out;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+
+        .btn-linear{
+          background: linear-gradient(to right, #5093d7 40%, #37393b35);  
+        }
+
+        .btn-linear:hover{
+          transform: scale(1.02);
+          background: rgba(7, 7, 7, 0.35);
+        }
+
+        .btn-radial{
+          background: linear-gradient(to left, #5093d7 40%, #37393b35);
+        }
+
+        .btn-radial:hover{
+          transform: scale(1.02);
+          background: rgba(7, 7, 7, 0.35);
+        }
+
+        .btn-diagonal{
+          background: linear-gradient(to right, #00BCD4, #4CAF50);
+        }
+
+        .btn-diagonal:hover{
+          border: 2px solid #5093d7;
+          transform: scale(1.02);
+          color: #333;
+          background: #ffff;
+        }
+
+        .btn-shift{
+          background: linear-gradient(to right, #37393b35, #5093d7 40%);
+          background-size: 300% 100%;
+          background-position: 100% 0;
+          transition: all 0.5s ease;
+        }
+
+        .btn-shift:hover{
+          background-position: 0 0;
+          transform: scale(1.03);
+        }
+
+
+        .form.h1 {
+          display: flex;
+          gap: 1px; /* Espaço entre input e botão */
+          align-items: center;
+        }
